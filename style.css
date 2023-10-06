@@ -76,3 +76,86 @@ body{
     margin: 10px auto;
     
 }
+/** Banner Shape **/
+.width-300{
+    width: 300px;
+}
+.height-300{
+    height: auto;
+}
+.form-div{
+   display: flex;
+
+    padding: 10px 120px;
+}
+.sm-device{
+    display: flex;
+}
+@media (max-width: 575px) {
+    .sm-device{
+
+        flex-direction: column;
+    }
+    .form-div{
+        flex-direction: column;
+     padding: 10px;
+         
+     }
+    }
+    .footer {
+        background-color: darkolivegreen;
+    }
+    
+    .footer-text {
+        text-align: center;
+        width: 100%;
+        color: #fff;
+        padding-top: 30px;
+    }
+    
+    .footer-text h1 {
+        font-size: 39px;
+        padding-bottom: 40px;
+    }
+    
+    #text {
+        font-size: 19px;
+        display: inline;
+    
+    }
+    
+    .footer-icon {
+        padding: 25px 0px;
+    }
+    
+    .fa-facebook-f {
+        background-color: burlywood;
+        padding: 8px 13px;
+        font-size: 30px;
+        color: #fff;
+        margin: 0px 20px;
+        border-radius: 5px;
+    }
+    
+    .fa-twitter {
+        background-color:burlywood;
+        padding: 10px;
+        font-size: 30px;
+        color: #fff;
+        margin: 0px 20px;
+        border-radius: 5px;
+    }
+    
+    .fa-instagram {
+        background-color:burlywood;
+        padding: 10px;
+        font-size: 30px;
+        color: #fff;
+        margin: 0px 20px;
+        border-radius: 5px;
+    }
+    
+    .copy-right {
+        background-color: darkgoldenrod;
+        font-weight: 500;
+    }
